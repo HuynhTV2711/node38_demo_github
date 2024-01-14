@@ -1,1 +1,38 @@
 # node38_demo_github
+1. Khởi tạo
+Bước 1: tạo repo => copy hết lệnh ở repo chạy ở command
+Bước 2: git add -A =>  git commit -m "comment" => git push
+
+
+2. tạo nhánh
+- Nhánh chính là main hoặc master(thường nhóm trưởng quản lí)
+- Các nhánh phụ được tạo ra để push code của từng thành viên lên 
+- muốn merge code vào nhánh chính thì tạo 1 pull request 
+2.1. tạo branch mới
+- tạo branch git branch tenNhanhCon
+- chuyển branch git check out tenNhanhCon
+- tạo và chuyển branch git checkout -b tenNhanhCon
+- xóa nhánh git branch -D tenNhanh
+- kiểm tra nhánh đang ở đâu git branch
+- đẩy nhánh mơi lên repo git push --set-upstream origin [tennhanh]
+
+Lưu ý: Thói quen khi làm việc với git
+1. Luôn pull code mới nhất của nhánh main về để làm việc( mỗi ngày )
+
+
+***********************************************************************
+
+
+Gộp commit
+ví dụ:
+1. gộp nhiều lần commit thành 1 commit để merge code
+tạo nhiều commit và push lên repo
+gộp các commit trên thành 1 commit duy nhất 
+git log --oneline
+git base 
+2. revert lại code cũ sau khi push
+git log --oneline
+3. thay đổi 4 file nhưng chỉ upload 2 file
+
+
+
