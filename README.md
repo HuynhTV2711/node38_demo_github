@@ -19,3 +19,10 @@ Bước 2: git add -A =>  git commit -m "comment" => git push
 Lưu ý: Thói quen khi làm việc với git
 1. Luôn pull code mới nhất của nhánh main về để làm việc( mỗi ngày )
 
+
+***********************************************************************
+
+
+Gộp commit
+ví dụ: gộp nhiều lần commit thành 1 commit để merge code
+
