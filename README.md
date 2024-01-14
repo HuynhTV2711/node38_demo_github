@@ -27,6 +27,11 @@ Gộp commit
 ví dụ:
 1. gộp nhiều lần commit thành 1 commit để merge code
 tạo nhiều commit và push lên repo
+gộp các commit trên thành 1 commit duy nhất 
+git log --oneline
+git base 
 2. revert lại code cũ sau khi push
+git log --oneline
+
 
 
