@@ -24,5 +24,9 @@ Lưu ý: Thói quen khi làm việc với git
 
 
 Gộp commit
-ví dụ: gộp nhiều lần commit thành 1 commit để merge code
+ví dụ:
+1. gộp nhiều lần commit thành 1 commit để merge code
+tạo nhiều commit và push lên repo
+2. revert lại code cũ sau khi push
+
 
